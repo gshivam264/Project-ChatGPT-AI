@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'open sans',sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    background-color: #343541;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+h1{
+    font-size: 33px;
+    font-weight: 600;
+    padding: 200px 0;
+}
+
+
+#left-side{
+    background-color: #202123;
+    width: 244px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#right-side{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+
+#bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05)0 54px 55px,
+    rgba(0, 0, 0, 0.05) 0 -12px 30px,
+    rgba(0, 0, 0, 0.05) 0 4px 6px,
+    rgba(0, 0, 0, 0.05) 0 12px 3px,
+    rgba(0, 0, 0, 0.09) 0 -3px 5px; 
+}
+
+#input-container{
+    width: 100%;
+    position: relative;
+    max-width: 650px;
+    /* display: flex; */
+}
+#input-container #submit{
+position: absolute;
+right: 10px;
+bottom: 5px;
+font-size: 22px;
+cursor: pointer;
+}
+
+button{
+    border: solid 0.5px rgba(255, 255, 255, 0.5);
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+#nav{
+    border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin: 10px;
+}
+#history{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#history p{
+  cursor: pointer;
+}
+
